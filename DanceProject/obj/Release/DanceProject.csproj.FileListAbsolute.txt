@@ -1,0 +1,10 @@
+C:\Users\213967599\Desktop\DanceProject\DanceProject\bin\DanceProject.dll
+C:\Users\213967599\Desktop\DanceProject\DanceProject\bin\DanceProject.XmlSerializers.dll
+C:\Users\213967599\Desktop\DanceProject\DanceProject\bin\DanceProject.pdb
+C:\Users\213967599\Desktop\DanceProject\DanceProject\bin\WebService1.dll
+C:\Users\213967599\Desktop\DanceProject\DanceProject\bin\WebService1.pdb
+C:\Users\213967599\Desktop\DanceProject\DanceProject\bin\WebService1.XmlSerializers.dll
+C:\Users\213967599\Desktop\DanceProject\DanceProject\obj\Release\DanceProject.csprojResolveAssemblyReference.cache
+C:\Users\213967599\Desktop\DanceProject\DanceProject\obj\Release\DanceProject.dll
+C:\Users\213967599\Desktop\DanceProject\DanceProject\obj\Release\DanceProject.pdb
+C:\Users\213967599\Desktop\DanceProject\DanceProject\obj\Release\DanceProject.XmlSerializers.dll

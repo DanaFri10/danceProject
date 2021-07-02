@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6E9AE3C8-8353-4EE0-B378-012C4F76B7D3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DanceProject</RootNamespace>
+    <AssemblyName>DanceProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\DanceProject.accdb" />
+    <Content Include="Pages\AboutUs.aspx" />
+    <Content Include="Pages\AddDance.aspx" />
+    <Content Include="Pages\AddPerformance.aspx" />
+    <Content Include="Pages\ContactUs.aspx" />
+    <Content Include="Pages\EditDance.aspx" />
+    <Content Include="Pages\EditPerformance.aspx" />
+    <Content Include="Pages\Entrance.aspx" />
+    <Content Include="Pages\HomePage.aspx" />
+    <Content Include="Pages\Notifications.aspx" />
+    <Content Include="Pages\SelectDates.aspx" />
+    <Content Include="Pages\ShowChoreographers.aspx" />
+    <Content Include="Pages\ShowDancers.aspx" />
+    <Content Include="Pages\ShowPerformance.aspx" />
+    <Content Include="Pages\ShowUser.aspx" />
+    <Content Include="Pages\UpdatePersonalData.aspx" />
+    <Content Include="Photos\AddDance.png" />
+    <Content Include="Photos\AddPerformance.png" />
+    <Content Include="Photos\AllGodsCreatures.jpg" />
+    <Content Include="Pages\BlockedUsers.aspx" />
+    <Content Include="Pages\Catagories.aspx" />
+    <Content Include="Pages\ShowDance.aspx" />
+    <Content Include="Photos\AlwaysABridesmaid.jpg" />
+    <Content Include="Photos\Background.png" />
+    <Content Include="Photos\Blackbirds.jpg" />
+    <Content Include="Photos\BlockIcon.png" />
+    <Content Include="Photos\BlushAndBashful.png" />
+    <Content Include="Photos\ColorChart.png" />
+    <Content Include="Photos\EmptyLike.png" />
+    <Content Include="Photos\Entrence.png" />
+    <Content Include="Photos\ForgotPasswordIcon.png" />
+    <Content Include="Photos\FullLike.png" />
+    <Content Include="Photos\Help.png" />
+    <Content Include="Photos\HomePage.png" />
+    <Content Include="Photos\Logo.png" />
+    <Content Include="Photos\LogoutIcon.png" />
+    <Content Include="Photos\NextIcon.png" />
+    <Content Include="Photos\NoProfile.png" />
+    <Content Include="Photos\NotificationIcon.png" />
+    <Content Include="Photos\PencilIcon.png" />
+    <Content Include="Photos\PlusIcon.png" />
+    <Content Include="Photos\ProfileIcon.png" />
+    <Content Include="Photos\RunBabyRun.jpg" />
+    <Content Include="Pages\ShowDances.aspx" />
+    <Content Include="Pages\ShowPerformances.aspx" />
+    <Content Include="Photos\SendIcon.png" />
+    <Content Include="Photos\ShowDance.png" />
+    <Content Include="Photos\ShowDances.png" />
+    <Content Include="Photos\ShowIcon.png" />
+    <Content Include="Photos\ShowPerformance.png" />
+    <Content Include="Photos\ShowPerformances.png" />
+    <Content Include="Photos\ShowUser.png" />
+    <Content Include="Photos\ShowUsers.png" />
+    <Content Include="Photos\X.png" />
+    <Content Include="Photos\YouGoGoGirl.jpg" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\WebService1.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Web References\localhost\WebService1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connect.cs" />
+    <Compile Include="DbManagement.cs" />
+    <Compile Include="Pages\AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddDance.aspx.cs">
+      <DependentUpon>AddDance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AddDance.aspx.designer.cs">
+      <DependentUpon>AddDance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AddPerformance.aspx.cs">
+      <DependentUpon>AddPerformance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AddPerformance.aspx.designer.cs">
+      <DependentUpon>AddPerformance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BlockedUsers.aspx.cs">
+      <DependentUpon>BlockedUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BlockedUsers.aspx.designer.cs">
+      <DependentUpon>BlockedUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Catagories.aspx.cs">
+      <DependentUpon>Catagories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Catagories.aspx.designer.cs">
+      <DependentUpon>Catagories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditDance.aspx.cs">
+      <DependentUpon>EditDance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditDance.aspx.designer.cs">
+      <DependentUpon>EditDance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditPerformance.aspx.cs">
+      <DependentUpon>EditPerformance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\EditPerformance.aspx.designer.cs">
+      <DependentUpon>EditPerformance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Entrance.aspx.cs">
+      <DependentUpon>Entrance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Entrance.aspx.designer.cs">
+      <DependentUpon>Entrance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Notifications.aspx.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Notifications.aspx.designer.cs">
+      <DependentUpon>Notifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SelectDates.aspx.cs">
+      <DependentUpon>SelectDates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SelectDates.aspx.designer.cs">
+      <DependentUpon>SelectDates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShowChoreographers.aspx.cs">
+      <DependentUpon>ShowChoreographers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowChoreographers.aspx.designer.cs">
+      <DependentUpon>ShowChoreographers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShowDance.aspx.cs">
+      <DependentUpon>ShowDance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowDance.aspx.designer.cs">
+      <DependentUpon>ShowDance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShowDancers.aspx.cs">
+      <DependentUpon>ShowDancers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowDancers.aspx.designer.cs">
+      <DependentUpon>ShowDancers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShowPerformance.aspx.cs">
+      <DependentUpon>ShowPerformance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowPerformance.aspx.designer.cs">
+      <DependentUpon>ShowPerformance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShowPerformances.aspx.cs">
+      <DependentUpon>ShowPerformances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowPerformances.aspx.designer.cs">
+      <DependentUpon>ShowPerformances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShowUser.aspx.cs">
+      <DependentUpon>ShowUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowUser.aspx.designer.cs">
+      <DependentUpon>ShowUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\UpdatePersonalData.aspx.cs">
+      <DependentUpon>UpdatePersonalData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\UpdatePersonalData.aspx.designer.cs">
+      <DependentUpon>UpdatePersonalData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceClasses\CategoryService.cs" />
+    <Compile Include="ServiceClasses\DanceService.cs" />
+    <Compile Include="ServiceClasses\EmailService.cs" />
+    <Compile Include="ServiceClasses\NotificationService.cs" />
+    <Compile Include="ServiceClasses\PerformanceService.cs" />
+    <Compile Include="ServiceClasses\UserService.cs" />
+    <Compile Include="Pages\ShowDances.aspx.cs">
+      <DependentUpon>ShowDances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ShowDances.aspx.designer.cs">
+      <DependentUpon>ShowDances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TypeClasses\Dance.cs" />
+    <Compile Include="TypeClasses\DancesDancers.cs" />
+    <Compile Include="TypeClasses\Performance.cs" />
+    <Compile Include="TypeClasses\PerformancesDances.cs" />
+    <Compile Include="TypeClasses\User.cs" />
+    <Compile Include="Web References\localhost\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebService1\WebService1.csproj">
+      <Project>{9F38F6D9-05DF-4064-A488-DAAA2C05E6B0}</Project>
+      <Name>WebService1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:50985/WebService1.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\localhost\</RelPath>
+      <UpdateFromURL>http://localhost:50985/WebService1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DanceProject_localhost_WebService1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50982</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

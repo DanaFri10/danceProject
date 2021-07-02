@@ -1,0 +1,6 @@
+C:\Users\213967599\Desktop\DanceProject\WebService1\bin\WebService1.dll
+C:\Users\213967599\Desktop\DanceProject\WebService1\bin\WebService1.XmlSerializers.dll
+C:\Users\213967599\Desktop\DanceProject\WebService1\bin\WebService1.pdb
+C:\Users\213967599\Desktop\DanceProject\WebService1\obj\Release\WebService1.dll
+C:\Users\213967599\Desktop\DanceProject\WebService1\obj\Release\WebService1.pdb
+C:\Users\213967599\Desktop\DanceProject\WebService1\obj\Release\WebService1.XmlSerializers.dll

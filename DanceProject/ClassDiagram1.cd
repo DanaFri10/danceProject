@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DanceProject.Connect">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Connect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.DbManagement">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEGAAAAAAAAAAAAAAIAgIAAAgA=</HashCode>
+      <FileName>DbManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.ServiceClasses.CategoryService">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAIAAAAAAAAAAEAAAAAAACAIAAAA=</HashCode>
+      <FileName>ServiceClasses\CategoryService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.ServiceClasses.DanceService">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBQAAAAIJACAUABAAQAAIAAACBAAAIAQAAAECCAAQAA=</HashCode>
+      <FileName>ServiceClasses\DanceService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.ServiceClasses.EmailService">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceClasses\EmailService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.ServiceClasses.NotificationService">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>ServiceClasses\NotificationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.ServiceClasses.PerformanceService">
+    <Position X="11" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgAAAIAAAAAEBCAAAAAAAAQQAAAQAAAAQAAAAAAgA=</HashCode>
+      <FileName>ServiceClasses\PerformanceService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.ServiceClasses.UserService">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAACAQAAAgAAAAAAAAAAAARAAAAAAQAAQAAAAg=</HashCode>
+      <FileName>ServiceClasses\UserService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.TypeClasses.Dance">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIAgAAAIAAAAAABAAAAAAAMAAAAAAAAAQAAIAABAAA=</HashCode>
+      <FileName>TypeClasses\Dance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.TypeClasses.DancesDancers">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAABAAAAAAABAABAAAACAAAAAAAAAAAAgA=</HashCode>
+      <FileName>TypeClasses\DancesDancers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.TypeClasses.Performance">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABAAAAAAEAAAAAAAQAAAAAAAACAAAAAAAQ=</HashCode>
+      <FileName>TypeClasses\Performance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.TypeClasses.PerformancesDances">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAQAAABAAABgABAAAACAAAAAAAAAIAAAA=</HashCode>
+      <FileName>TypeClasses\PerformancesDances.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DanceProject.TypeClasses.User">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAAAAAAAACgACAAAAgAADAAACAIAAAA=</HashCode>
+      <FileName>TypeClasses\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
